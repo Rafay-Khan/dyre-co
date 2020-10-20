@@ -1,0 +1,107 @@
+*,body{
+	padding:0px;
+	margin:0px;
+}
+.container header img{
+	float:left;
+	width: 108px;
+	max-height: 123px;
+}
+.container header .box{
+	float:right;
+	background-color:blue;
+	width:700px;
+	height:123px;
+}
+.container header{
+	margin:0px auto;
+	border-bottom:1px solid;
+	max-width:880px;
+	padding:25px 0;
+	height:123px;
+	margin-bottom:30px;
+}
+
+.container .main-container ul.main-menu {
+	float:left;
+	font-size:small;
+}
+@media (min-width: 320px) and (max-width: 767px){
+	.container .main-container ul.main-menu{
+		text-align: center;
+		float: none;
+	}
+}
+.container .main-container ul.main-menu li{
+	margin-bottom:10px;
+	list-style:none;
+	
+}
+.container .main-container ul.main-menu li.active a {
+	color: blue !important;
+	border-color: blue !important;
+}
+.container .main-container {
+	max-width: 880px;
+}
+
+.container .main-container ul.main-menu li a{
+	text-decoration:none;
+	color:black;
+	display:inline-block;
+	border-bottom:1px solid;
+	max-width:108px;
+}
+
+.container .main-container ul.main-menu li:hover a{
+	color:blue;
+}
+.container{
+	max-width:880px;
+	margin:0 auto;
+
+}
+.main-container h4 {
+	max-width:700px;
+} 
+.main-container h4{
+	border-bottom:3px solid;
+	margin-bottom:30px;
+	display:inline-block;
+	color:blue;
+}
+.container .main-container .content{
+	float: right;
+	max-width:700px;
+}
+.main-container .content p{
+	
+	margin-bottom:20px;
+	max-width: 700px;
+}
+.container footer{
+	
+    margin-top: 100px;
+    background: blue;
+    max-width: 950px;
+    float:left;
+	margin-bottom:80px;
+    padding: 10px;
+	color:white;
+	align-content: center;
+}
+.container footer p{
+	float:right;
+	color:white;
+	margin-top:15px;
+	
+}
+.container footer p a{
+	color:white;
+}
+div.heading ul{
+	margin-bottom:30px;	
+}
+div.heading ul li a{
+	color:black;
+} 
